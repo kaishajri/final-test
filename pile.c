@@ -25,8 +25,12 @@ void empiler(int x,struct element **p)
 }
 void depiler(struct element **p)
 {
-   assert(*p!=NULL);
-   struct element *q=*p;
-   *p=q->suivant;
-   free(q);
+   if(*p!=NULL)
+        {
+            struct element *s=*p;
+            *p=*p->suivant;
+            free(s);
+        }
+    else
+        exit();
 }
