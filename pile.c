@@ -33,3 +33,9 @@ void depiler(struct element **p)
         }
 }
 /* fin implementation */
+/* jhkdlshflsdqhgjklsq
+gsdlghsqkjlghjkqlsg
+gsdlghjsjkqlhgjksdq
+gsdklhgsjklhgsqlkj
+gsdqljhgslkjqhgslqd
+gjksldjglkqsjglk*/
