@@ -32,3 +32,4 @@ void depiler(struct element **p)
             free(s);
         }
 }
+/* fin implementation */
