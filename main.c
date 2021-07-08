@@ -9,3 +9,4 @@ void main()
     empiler(10,&p);
     printf("%d",dernier(p));
 }
+/* this shit is hard to manipulate */
