@@ -9,3 +9,4 @@ unsigned vide(struct element*);
 int dernier(struct element*);
 void empiler(int,struct element**);
 void depiler(struct element**);
+
