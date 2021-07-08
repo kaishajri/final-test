@@ -23,4 +23,10 @@ void empiler(int x,struct element **p)
     e->suivant=*p;
     *p=e;
 }
-void depiler(struct element**);
+void depiler(struct element **p)
+{
+   assert(*p!=NULL);
+   struct element *q=*p;
+   *p=q->suivant;
+   free(q);
+}
