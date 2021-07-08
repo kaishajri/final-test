@@ -1,7 +1,7 @@
 struct element
 {
     int cle;
-    struct element *suivant
+    struct element *suivant;
 };
 
 void cree(struct element**);

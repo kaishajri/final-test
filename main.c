@@ -10,3 +10,4 @@ void main()
     printf("%d",dernier(p));
 }
 /* this shit is hard to manipulate */
+/* sometimes not reallu that hard */

@@ -28,9 +28,7 @@ void depiler(struct element **p)
    if(*p!=NULL)
         {
             struct element *s=*p;
-            *p=*p->suivant;
+            *p=(*p)->suivant;
             free(s);
         }
-    else
-        exit();
 }
